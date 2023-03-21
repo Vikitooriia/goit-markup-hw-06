@@ -39,18 +39,81 @@
         <h1 class="hero-title">Effective Solutions
         for Your Business</h1>
         <button type="button" class="order-button" data-modal-open>Order Service</button> 
-        <div class="backdrop is-hidden" data-modal>
+        <div class="backdrop" data-modal>
           <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
               <svg class="modal-svg" width="8px" height="8px">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
               </svg>
             </button>
+            <form class="modal-form form"> 
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+           
+      <div class="form-group">
+        <label for="" class="form-label">
+         <span class="name-span">Name</span> 
+         <div class="form-wraper">
+            <input type="text" class="form-input" name="full-name" required>
+             <svg class="form-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-person"></use>
+            </svg>
           </div>
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="" class="form-label">
+          <span class="name-span">Phone</span> 
+          <div class="form-wraper">
+            <input type="number" class="form-input" name="number" required>
+             <svg class="form-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phone"></use>
+             </svg>
+            </div>
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="" class="form-label">
+          <span class="name-span">Email</span> 
+          <div class="form-wraper">
+             <input type="email" class="form-input" name="email"  required>
+               <svg class="form-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-emailed"></use>
+             </svg>
+            </div>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="" class="form-label">
+          <span class="name-span">Comment</span>
+            <div class="form-wraper">
+          <textarea class="form-texterea" name="comment"  placeholder="Text input"></textarea>
+         </div>
+       </label>
+     </div>
+
+    <div class="form-group form-group-check">
+      <label for="checkbox" class="label-check">
+        <input type="checkbox" class="form-check visually-hidden" name="checkbox">
+         <span class="check-icon">
+           <svg class="check-svg" width="10" height="8">
+            <use href="./images/symbol-defs.svg#icon-yes"></use>
+           </svg>
+         </span>  
+         <span class="modal-option-span">I accept the terms and conditions of the <a href="" class="privacy-link">Privacy Policy</a> </span>
+      </label> 
+    </div>
+  </form>
+
+           <button type="submit" class="order-button form-button">Send</button>
         </div>
+    </div>
+         
+        </div>
+      </div>
    </div>  
   </section>
-      
+     
 <!-----------------features------------------->
   <section class="section">
     <div class="container">
