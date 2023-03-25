@@ -330,11 +330,12 @@ address{
 }
 
 .form-label {
-    display: block;   
+    display: block; 
+    margin-bottom: 8px;  
 }
 
-.form-label:not(:last-child) {
-    margin-bottom: 8px;
+.form-label:nth-child(5) {
+    margin-bottom: 0;
 }
 
 
